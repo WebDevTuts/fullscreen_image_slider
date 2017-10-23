@@ -10,3 +10,34 @@ body, #slider, .wrap, .slide-content {
 .wrap {
   position: relative;
 }
+
+.slide {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slide-1 {
+  background-image: url('images/image1.jpeg');
+}
+
+.slide-2 {
+  background-image: url('images/image2.jpeg');
+}
+
+.slide-3 {
+  background-image: url('images/image3.jpeg');
+}
+
+.slide-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.slide-content span {
+  font-size: 5rem;
+  color: #FFF;
+}
